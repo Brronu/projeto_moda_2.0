@@ -1,0 +1,48 @@
+/* Seletor para o corpo (background escuro) */
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Estilize o botão de alternar modo escuro */
+#escuro:checked + .label .ball {
+    left: 100%;
+    background-color: #ffffff;
+}
+
+/* Altere as cores do cabeçalho e da navegação */
+.navbar.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar.dark-mode .nav-link {
+    color: #fff;
+}
+
+/* Altere as cores do rodapé */
+.footer.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer.dark-mode a {
+    color: #fff;
+}
+
+/* Estilize os elementos do carrossel */
+.carousel-item.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Altere as cores dos cartões */
+.card.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.card.dark-mode .btn-dark {
+    background-color: #fff;
+    color: #333;
+}
