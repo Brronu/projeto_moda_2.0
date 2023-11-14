@@ -15,7 +15,9 @@ body.dark-mode {
     background-color: #333;
     color: #fff;
 }
-
+.cor{
+    color: blue;
+}
 .navbar.dark-mode .nav-link {
     color: #fff;
 }
